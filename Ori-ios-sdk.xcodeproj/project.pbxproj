@@ -13,6 +13,7 @@
 		26B7851021C3DA5B0043EA0C /* sourcefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7850F21C3DA5B0043EA0C /* sourcefile.swift */; };
 		26B7851221C3E3620043EA0C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B7851121C3E3620043EA0C /* index.html */; };
 		26B7851421C3E4F30043EA0C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7851321C3E4F30043EA0C /* test.swift */; };
+		26B7851621C3ECB80043EA0C /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B7851521C3ECB80043EA0C /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		26B7850F21C3DA5B0043EA0C /* sourcefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourcefile.swift; sourceTree = "<group>"; };
 		26B7851121C3E3620043EA0C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		26B7851321C3E4F30043EA0C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		26B7851521C3ECB80043EA0C /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				26B784F921C3D9D80043EA0C /* Info.plist */,
 				26B7850F21C3DA5B0043EA0C /* sourcefile.swift */,
 				26B7851321C3E4F30043EA0C /* test.swift */,
+				26B7851521C3ECB80043EA0C /* main.storyboard */,
 			);
 			path = "Ori-ios-sdk";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B7851221C3E3620043EA0C /* index.html in Resources */,
+				26B7851621C3ECB80043EA0C /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

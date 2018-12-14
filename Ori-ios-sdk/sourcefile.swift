@@ -9,6 +9,7 @@
 import Foundation
 
 public class Service {
+    @IBOutlet weak var button: UIButton!
     private init() {}
     public static func doSomething() -> String {
         return "do something for us"
