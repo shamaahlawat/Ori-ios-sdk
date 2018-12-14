@@ -70,7 +70,9 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files = 'Ori-ios-sdk/**/*.{swift}'
+  #spec.source_files = 'Ori-ios-sdk/**/*.{swift}'
+  spec.source_files = 'Ori-ios-sdk/*'
+
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

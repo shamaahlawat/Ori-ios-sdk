@@ -11,6 +11,7 @@
 		26B7850421C3D9D80043EA0C /* Ori_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7850321C3D9D80043EA0C /* Ori_ios_sdkTests.swift */; };
 		26B7850621C3D9D80043EA0C /* Ori_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B784F821C3D9D80043EA0C /* Ori_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26B7851021C3DA5B0043EA0C /* sourcefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7850F21C3DA5B0043EA0C /* sourcefile.swift */; };
+		26B7851221C3E3620043EA0C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B7851121C3E3620043EA0C /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		26B7850321C3D9D80043EA0C /* Ori_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ori_ios_sdkTests.swift; sourceTree = "<group>"; };
 		26B7850521C3D9D80043EA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B7850F21C3DA5B0043EA0C /* sourcefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sourcefile.swift; sourceTree = "<group>"; };
+		26B7851121C3E3620043EA0C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		26B784F721C3D9D80043EA0C /* Ori-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				26B7851121C3E3620043EA0C /* index.html */,
 				26B784F821C3D9D80043EA0C /* Ori_ios_sdk.h */,
 				26B784F921C3D9D80043EA0C /* Info.plist */,
 				26B7850F21C3DA5B0043EA0C /* sourcefile.swift */,
@@ -181,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B7851221C3E3620043EA0C /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
