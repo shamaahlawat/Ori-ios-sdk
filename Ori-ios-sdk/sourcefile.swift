@@ -15,10 +15,12 @@ public class Service {
     public init() {
          let htmlpath = Bundle.main.path(forResource: "index", ofType: "html")
          let url = URL(fileURLWithPath : htmlpath!)
+        print(url)
          let request = URLRequest(url: url)
+        print(request)
          webview.load(request)
 //        let webview = self.webview.load(request)
-//        print("webview")
+        print("webview")
         
     }
     
